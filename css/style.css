@@ -1,0 +1,139 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+body, 
+html {
+    background-color: #fff; 
+    color: #555; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+    font-size: 20px; 
+    text-rendering: optimizeLegibility; 
+    overflow-x: hidden; 
+   /* scroll-behavior: smooth; */
+}
+
+.row {
+    max-width: 1140px;  
+    margin: 0 auto; 
+}
+
+header {
+    background-color: #fff; 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    background-attachment: fixed; 
+    width: 100%; 
+}
+
+.head-text {
+    top: 45%; 
+    left: 50%; 
+    position: absolute; 
+    display: block; 
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 1px; 
+}
+
+.head-copy {
+    top: 58%; 
+    left: 50%; 
+    position: absolute; 
+    display: block; 
+    transform: translate(-50%, -50%);
+    font-size: 120%;
+    width: 50%; 
+    line-height: 145%; 
+}
+
+.pointer {
+    position: absolute; 
+    font-size: 250%; 
+    top: 90%; 
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.pointer:hover {
+    color: #7395AE; 
+    cursor: pointer; 
+    transition: .3s ease-out; 
+}
+
+.blog-post {
+    color: #fff; 
+    width: 100%; 
+}
+
+h2 {
+    font-size: 200%; 
+    word-spacing: 1px; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    letter-spacing: 1px; 
+    color: #555;
+    font-weight: 400; 
+}
+
+h2:after {
+    display: block; 
+    height: 2px; 
+    background-color: #7395AE; 
+    content: " "; 
+    width: 100px; 
+    margin: 0 auto; 
+    margin-top: 30px; 
+}
+
+.long-copy {
+    line-height: 145%; 
+    width: 100%;  
+    margin-bottom: 10px; 
+    color: #555; 
+    letter-spacing: 1px; 
+    word-spacing: 3px; 
+} 
+
+.navi {
+    position: absolute; 
+    font-size: 200%; 
+    top: 5%; 
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.navi:hover {
+    color: #7395AE; 
+    cursor: pointer; 
+    transition: .3s ease-out; 
+}
+
+.main-nav {
+    position: relative; 
+    list-style: none; 
+    margin-top: 150px; 
+    display: none; 
+}
+
+.main-nav li {
+    display: inline-block; 
+    margin-right: 100px; 
+}
+
+a {
+    text-decoration: none; 
+    color: #555; 
+}
+
+a:hover {
+    color: #7395AE; 
+    transition: .3s ease-out; 
+}
